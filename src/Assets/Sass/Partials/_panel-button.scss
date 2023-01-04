@@ -1,7 +1,7 @@
 .panelButton {
-    @include AnchoAltoFondo ( 26vw , 60vh , transparent);
+    @include AnchoAltoFondo ( 26vw , 64vh , transparent);
     @include Grilla-DisColRowGap ( grid , 1fr 1fr 1fr 1fr , 1fr 1fr 1fr 1fr 1fr , 1vh);
     border-radius: 20px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 15px;
 }

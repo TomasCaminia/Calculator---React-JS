@@ -1,13 +1,11 @@
 import React from 'react'
 
-export const Display = () => {
-
-    const value = 0
+export const Display = ({ value }) => {
 
     return (
         <>
             <div className='display'>
-                <p> { value } </p>
+                <> <p> { value } </p> </>
             </div>
         </>
     )

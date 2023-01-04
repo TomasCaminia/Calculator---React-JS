@@ -8,11 +8,14 @@ import { Display } from './Display'
 import { PanelButton } from './PanelButton'
 
 export const App = () => {
+
+    const value = 0
+
     return (
         <>
             <div className='calculator-container'>
 
-                <Display />
+                <Display value={ value }/>
                 <PanelButton />
 
             </div>
