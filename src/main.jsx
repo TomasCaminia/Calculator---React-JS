@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import ReactDOM from 'react-dom/client'
 
 //CSS
@@ -14,8 +14,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/*Creamos el contenedor de la calculadora*/}
     <div className='calculator-container'>.  
 
-      <Display />
-      <PanelButton />
+      <Display/>
+      <PanelButton/>
 
     </div>
 
