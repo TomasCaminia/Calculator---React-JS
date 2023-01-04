@@ -5,7 +5,7 @@ export const PanelButton = () => {
         <>
             <div className='panelButton'>
                 <div className='button reset'>C</div>
-                <div className='button'>Atra</div>
+                <div className='button'><i class="fas fa-arrow-left"></i></div>
                 <div className='button'>%</div>
                 <div className='button'>7</div>
                 <div className='button'>8</div>
