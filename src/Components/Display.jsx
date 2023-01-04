@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const Display = ({ value }) => {
+export const Display = ( { value } ) => {
 
     return (
         <>

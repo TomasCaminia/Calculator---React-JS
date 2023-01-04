@@ -9,14 +9,15 @@ import { PanelButton } from './PanelButton'
 
 export const App = () => {
 
-    const value = 0
+    const [ result , setResult ] = useState( "" )
+    
 
     return (
         <>
             <div className='calculator-container'>
 
-                <Display value={ value }/>
-                <PanelButton />
+                <Display value={ result }/>
+                <PanelButton value={ result } setValue={ setResult }/>
 
             </div>
         </>
