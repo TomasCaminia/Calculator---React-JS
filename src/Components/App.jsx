@@ -1,7 +1,24 @@
+import React from 'react'
+
+//CSS
+import '../Assets/CSS/style.css'
+
+//EXPORTACIONES DE COMPONENTES
+import { Display } from './Display'
+import { PanelButton } from './PanelButton'
+
 export const App = () => {
+  
   return(
     <>
-      <h1>Arrancando</h1>
+      {/*Creamos el contenedor de la calculadora*/}
+      <div className='calculator-container'>
+        
+         <Display />
+         <PanelButton />
+
+      </div>
+      
     </>
   )
 }

@@ -1,0 +1,18 @@
+//COLORES = VARIABLES
+$colorPrimario: #1b0db7;
+$colorPrimarioOscuro: #000051;
+$colorFondo: paz#858585;
+$colorDisplay: #1a1a1a;
+$colorBotonesEspeciales: #00003f;
+
+//PONIENDO NAVEGADOR EN DEFAULT
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color: $colorFondo;
+    user-select: none;
+}
+

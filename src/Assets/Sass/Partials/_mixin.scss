@@ -1,0 +1,26 @@
+@mixin AnchoAltoFondo($w, $h, $bg) {
+    width: $w;
+    height: $h;
+    background: $bg;
+}
+
+@mixin CentrandoDiv() {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin Grilla-DisColRowGap ( $d , $c , $r , $g) {
+    display: $d;
+    grid-template-columns: $c;
+    grid-template-rows: $r;
+    gap: $g;
+}
+
+@mixin LetrasFSC ( $fonts , $size , $color ) {
+    font-family: $fonts;
+    font-size: $size;
+    color: $color;
+}
+  

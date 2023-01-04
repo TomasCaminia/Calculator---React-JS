@@ -1,5 +1,6 @@
-@import './Partials/_general.scss';
-@import './Partials/-fonts.scss';
+@import './Partials/_general';
+@import './Partials/_fonts';
+@import './Partials/mixin';
 @import './Partials/_container';
 @import './Partials/_display';
 @import './Partials/_panel-button';

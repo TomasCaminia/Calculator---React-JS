@@ -1,0 +1,15 @@
+.display {
+    @include AnchoAltoFondo ( 26vw , 16vh , $colorDisplay);
+    border: 5px solid $colorPrimarioOscuro;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 10px;
+    text-align: right;
+    padding: 3.4vh 1vw;
+
+    p {
+        @include LetrasFSC ( $FuenteNumeros , 24px , white );
+        margin-top: 3px;
+    }
+}

@@ -1,0 +1,6 @@
+.calculator-container {
+    @include AnchoAltoFondo(28vw, 87vh, $colorPrimario);
+    @include CentrandoDiv();
+    border: 10px solid $colorPrimarioOscuro;
+    border-radius: 40px;
+}
