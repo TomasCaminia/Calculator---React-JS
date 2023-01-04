@@ -1,5 +1,5 @@
 .display {
-    @include AnchoAltoFondo ( 26vw , 16vh , $colorDisplay);
+    @include AnchoAltoFondo ( 26vw , 14vh , $colorDisplay);
     border: 5px solid $colorPrimarioOscuro;
     border-radius: 20px;
     box-sizing: border-box;

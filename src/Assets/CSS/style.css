@@ -22,7 +22,7 @@ body {
 
 .display {
   width: 26vw;
-  height: 16vh;
+  height: 14vh;
   background: #1a1a1a;
   border: 5px solid #000051;
   border-radius: 20px;
@@ -41,7 +41,7 @@ body {
 
 .panelButton {
   width: 26vw;
-  height: 62vh;
+  height: 60vh;
   background: transparent;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
