@@ -10,6 +10,6 @@
 
     p {
         @include LetrasFSC ( $FuenteNumeros , 24px , white );
-        margin-top: 3px;
+        margin-top: -1px;
     }
 }
